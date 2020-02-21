@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif ;
+}
+/*------Header area style here----------------------*/
+
+.header-area{
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+   
+    margin-bottom: 20px;
+    padding: 30px 0px;
+
+}
+.half-width {
+    width: 50%;
+    float: left;
+    padding-left: 2%;
+}
+.container:after,
+.container:before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.half-width h1{
+    color: salmon;
+    font-weight: 700;
+    font-size: 40px;
+}
+.awesome-btn {
+    text-decoration: none;
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+.half-width p {
+    text-align: justify;
+    font-size: 19px;
+    color: #495154;
+}
+.header-left {
+    padding-left: 12%;
+    padding-top: 8%;
+}
+.half-width img{
+    width: 100%;
+}
+/*------Header area style end----------------------*/
+
+/*------Biograpy area style here----------------------*/
+
+.middle-area{
+    background-image: url(./images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-right{
+    padding-left: 12%;
+    padding-top: 20%;
+}
+.half-width h2{
+    font-weight: bold;
+}
+/*------Biograpy area style end----------------------*/
+/*------Content area style here----------------------*/
+
+.content-area{
+    background-image: url(./images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one-third-width{
+    width: 33.33%;
+    float: left;
+    padding-left: 2%;
+}
+.one-third-width img{
+    width: 100%;
+}
+.center{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+/*------Content area style end----------------------*/
+
+
+/*------footer area style here----------------------*/
+
+.footer-area{
+    background-image: url(./images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client-area{
+    text-align: center;
+}
+.text{
+    font-weight: bold;
+    font-size: 30px;
+}
+.ceo-text{
+    font-size: 14px;
+    color: silver;
+}
+.text-area{
+    font-size: 30px;
+}
+.box-area {
+    width: 72%;
+    height: 175px;
+    background-color: #EC5094;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+}
+.iner-text{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 35%;
+}
+p.iner-email {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 50px;
+    left: 21%;
+}
+
+/*------footer area style end----------------------*/
+
+/* contact area style here */
+
+  .contact-section h1{
+    text-align: center;
+    color: #ddd;
+  }
+  .border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+
+.footer-text{
+    text-align: center;
+}
